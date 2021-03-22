@@ -1,3 +1,21 @@
+<?php
+
+require '../../koneksi.php';
+
+// if($_SESSION['level'] != 'masyarakat'){
+//     header('location:../')
+// }
+
+echo $_POST['laporan'];
+var_dump($_FILES['foto']);
+?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +33,8 @@
         <label for="foto">Foto/Gambar</label>
         <br>
         <input type="file" name="foto" id="">
+        <br>
+        <input type="submit" value="Laporkan">
     
     </form>
 </body>
