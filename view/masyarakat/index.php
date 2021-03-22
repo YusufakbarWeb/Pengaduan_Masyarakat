@@ -11,6 +11,8 @@
 <body>
     
     <a href="laporan.php">Menulis Laporan</a>
+    <br>
+    <a href="../logout.php">log out</a>
 
     <script src="../../assets/js/bootstrap.min.js"></script>
 </body>

@@ -2,12 +2,14 @@
 
 require '../../koneksi.php';
 
-// if($_SESSION['level'] != 'masyarakat'){
-//     header('location:../')
-// }
+$directoryimage = '../../assets/image/';
+$imageLocation = $directoryimage.$_FILES['foto']['name'];
 
-echo $_POST['laporan'];
-var_dump($_FILES['foto']);
+move_uploaded_file($_FILES['foto']['tmp_name'],$imageLocation);
+
+ 
+
+
 ?>
 
 
