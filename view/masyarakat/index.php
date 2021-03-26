@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <a href="laporan.php">Menulis Laporan</a>
+    <a href="tulislaporan.php">Menulis Laporan</a>
     <br>
     <a href="../logout.php">log out</a>
 
